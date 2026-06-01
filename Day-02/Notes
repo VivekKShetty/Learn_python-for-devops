@@ -1,0 +1,31 @@
+LIST
+- Order: Yes (indexed)
+- Mutable: Yes
+- Duplicates: Yes
+- Indexing: Yes (e.g., list[0])
+- Syntax: [ ]
+- Use: Dynamic data (can change anytime)
+ 
+TUPLE
+- Order: Yes (indexed)
+- Mutable: No
+- Duplicates: Yes
+- Indexing: Yes (e.g., tuple[0])
+- Syntax: ( )
+- Use: Fixed data (should not change)
+ 
+SET
+- Order: No
+- Mutable: Yes
+- Duplicates: No
+- Indexing: No (no list-style access)
+- Syntax: { }
+- Use: Unique items, fast operations
+ 
+FROZENSET
+- Order: No
+- Mutable: No
+- Duplicates: No
+- Indexing: No
+- Syntax: frozenset()
+- Use: Fixed unique data (read-only set)
