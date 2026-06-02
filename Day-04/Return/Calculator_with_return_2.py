@@ -5,3 +5,8 @@ def add(num1,num2):
 
 x = add(4,3)
 print(x)
+
+
+print(add(2,6))
+
+add(3,6)
